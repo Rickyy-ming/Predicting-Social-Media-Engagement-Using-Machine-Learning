@@ -18,12 +18,12 @@ We aim to not only predict sleep quality using machine learning models, but also
 ⸻
 
 📂 Project Structure
-'''text
+'''
 📁 social-media-sleep-quality/
 │
 ├── Social_Media_Prediction.ipynb   # Main analysis notebook
 ├── README.md                       # Project overview and documentation
-└── data/                           # (Optional) Folder for raw and processed datasets‘’‘
+└── data/                           # (Optional) Folder for raw and processed datasets'''
 
 🧠 Key Features
 	•	🧹 Data preprocessing and feature engineering
