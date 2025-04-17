@@ -3,6 +3,8 @@
 This project applies supervised machine learning techniques to predict the **number of social media shares** a post will receive based on its textual and categorical features. It combines **data preprocessing, feature engineering, model selection, and evaluation** into a unified workflow built in Python.
 
 The project demonstrates how machine learning can drive **content strategy**, **targeting**, and **ROI improvement** in digital marketing by forecasting user engagement.
+
+
 datasource: https://www.kaggle.com/datasets/ashaychoudhary/social-media-and-entertainment-dataset/suggestions?status=pending
 ---
 
