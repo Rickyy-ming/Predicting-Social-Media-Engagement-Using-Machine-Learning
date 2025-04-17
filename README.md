@@ -1,81 +1,56 @@
-# Predicting-Social-Media-Engagement-Using-Machine-Learning
 
-This project applies supervised machine learning techniques to predict the **number of social media shares** a post will receive based on its textual and categorical features. It combines **data preprocessing, feature engineering, model selection, and evaluation** into a unified workflow built in Python.
+⸻
 
-The project demonstrates how machine learning can drive **content strategy**, **targeting**, and **ROI improvement** in digital marketing by forecasting user engagement.
+💤 Social Media & Sleep Quality: A Causal Inference Analysis
 
+📌 Project Overview
 
-datasource: https://www.kaggle.com/datasets/ashaychoudhary/social-media-and-entertainment-dataset/suggestions?status=pending
----
+In today’s digitally connected world, understanding the impact of social media on well-being is critical. This project explores the relationship between social media engagement and sleep quality, using a dataset of over 300,000 individuals.
 
-##  Project Value
+We aim to not only predict sleep quality using machine learning models, but also to infer causal effects—answering the question: “Does more time on social media actually worsen sleep quality?”
 
-This project provides real business value in the areas of:
+🎯 Objectives
+	•	Analyze behavioral and demographic data related to digital habits.
+	•	Build predictive models to estimate sleep quality.
+	•	Use causal inference techniques to estimate the effect of social media usage on sleep quality.
+	•	Provide actionable insights that can inform wellness-focused interventions.
 
-- 🎯 **Content Optimization**: Enables marketers to identify characteristics of high-performing posts before publishing.
-- 📊 **Engagement Forecasting**: Helps marketing teams allocate budget and resources toward posts with higher expected impact.
-- 🔍 **Model Interpretability**: Uses explainable models (e.g., gradient boosting) and feature analysis to understand key engagement drivers.
+⸻
 
-**Real-world impact**: Businesses can better predict virality and engagement patterns, increasing the efficiency of their digital marketing spend.
+📂 Project Structure
+'''text
+📁 social-media-sleep-quality/
+│
+├── Social_Media_Prediction.ipynb   # Main analysis notebook
+├── README.md                       # Project overview and documentation
+└── data/                           # (Optional) Folder for raw and processed datasets‘’‘
 
----
+🧠 Key Features
+	•	🧹 Data preprocessing and feature engineering
+	•	🔍 Exploratory Data Analysis (EDA)
+	•	🤖 Sleep quality prediction using machine learning models (Logistic Regression, Random Forest, etc.)
+	•	📊 Visualization of feature importances and model performance
+	•	🧪 Causal Inference using techniques such as:
+	•	Propensity Score Matching (PSM)
+	•	Inverse Probability Weighting (IPW)
+	•	Average Treatment Effect (ATE) estimation
 
-## 🧠 Problem Statement
+⸻
 
-> Can we accurately predict how many shares a social media post will receive based on its metadata and content?
+🧪 Techniques Used
+	•	Python (3.7+)
+	•	Scikit-learn, Pandas, Seaborn, Matplotlib
+	•	CausalML / DoWhy (for causal inference)
+	•	Jupyter Notebook
 
-This includes predicting shares based on features such as:
+⸻
 
-- Textual length
-- Presence of images or videos
-- Day of the week
-- Time of day
-- Category (lifestyle, technology, etc.)
-- Keyword usage
+📈 Insights & Outcomes
+	•	Social media engagement late at night is negatively correlated with sleep quality.
+	•	After adjusting for confounders, causal inference techniques reveal a statistically significant causal effect—higher engagement tends to lead to poorer sleep.
+	•	The most predictive features include: screen time duration, time of usage, demographic factors, and type of social media platform.
 
----
-
-##  Technologies & Tools
-
-- **Language**: Python 3  
-- **Data Handling**: `pandas`, `numpy`  
-- **Visualization**: `matplotlib`, `seaborn`  
-- **Machine Learning**: `scikit-learn`, `XGBoost`, `LightGBM`  
-- **Notebook Environment**: Jupyter
-
----
-
-##  ML Techniques Used
-
-- Regression modeling using:
-  - Random Forest Regressor
-  - Gradient Boosting Machines (XGBoost, LightGBM)
-  - Linear Regression (baseline)
-- Hyperparameter tuning via `GridSearchCV`
-- Model performance evaluated using:
-  - **RMSE (Root Mean Squared Error)**
-  - **R² Score (Goodness of Fit)**
-- Feature importance ranking for insight extraction
-
----
-
-## Project Highlights
-
-- ✅ Cleaned and processed mixed-type (categorical + numerical) data.
-- 📈 Built multiple predictive models and compared their performance.
-- 📊 Visualized feature importance to identify key factors driving engagement.
-- 💾 Modular and reproducible workflow — easy to adapt to other platforms like TikTok, Instagram, or LinkedIn.
-
----
-
-##  File Structure
-
-```text
-├── Social_Media_Prediction.ipynb    # Jupyter Notebook containing all code and outputs
-├── README.md                        # Project documentation
-├── dataset.csv                      # (assumed) cleaned and processed input data
-
-
- Example Use Case
-
-A digital media agency wants to forecast how many shares a news article will receive. This project allows them to train a predictive model using their historical post data, gaining insights into what drives virality — and enabling data-driven content creation.
+ 📚 Future Work
+	•	Apply time-series analysis on user-level usage patterns.
+	•	Introduce real-time interventions based on predictive signals.
+	•	Expand to other dimensions of digital well-being like productivity and anxiety.
