@@ -6,7 +6,7 @@ The project demonstrates how machine learning can drive **content strategy**, **
 
 ---
 
-## 💼 Project Value
+##  Project Value
 
 This project provides real business value in the areas of:
 
@@ -33,7 +33,7 @@ This includes predicting shares based on features such as:
 
 ---
 
-## ⚙️ Technologies & Tools
+##  Technologies & Tools
 
 - **Language**: Python 3  
 - **Data Handling**: `pandas`, `numpy`  
@@ -43,7 +43,7 @@ This includes predicting shares based on features such as:
 
 ---
 
-## 🧪 ML Techniques Used
+##  ML Techniques Used
 
 - Regression modeling using:
   - Random Forest Regressor
@@ -57,7 +57,7 @@ This includes predicting shares based on features such as:
 
 ---
 
-## 🔍 Project Highlights
+## Project Highlights
 
 - ✅ Cleaned and processed mixed-type (categorical + numerical) data.
 - 📈 Built multiple predictive models and compared their performance.
@@ -66,7 +66,7 @@ This includes predicting shares based on features such as:
 
 ---
 
-## 📁 File Structure
+##  File Structure
 
 ```text
 ├── Social_Media_Prediction.ipynb    # Jupyter Notebook containing all code and outputs
@@ -74,6 +74,6 @@ This includes predicting shares based on features such as:
 ├── dataset.csv                      # (assumed) cleaned and processed input data
 
 
-🧬 Example Use Case
+ Example Use Case
 
 A digital media agency wants to forecast how many shares a news article will receive. This project allows them to train a predictive model using their historical post data, gaining insights into what drives virality — and enabling data-driven content creation.
